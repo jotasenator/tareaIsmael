@@ -22,3 +22,7 @@ for i in arr:
 	
 print(f'Esta es la numeros ordenados y las cantidad existentes {lista_elementos_cantidad}.')
 print(f'Existen estas relaciones numero:cantidad de parejas: {lista_cantidad}, lo cual da una cantidad de {sum(lista_parejas)} parejas.')
+
+#con esta libreria sale un diccionario con clave numero valor cantidad de numero
+from collections import Counter
+numero_valor=Counter(arr)
